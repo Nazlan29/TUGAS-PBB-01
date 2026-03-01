@@ -1,0 +1,93 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 28px;
+}
+
+.hero span {
+    color: #ffd700;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #2a5298;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero a:hover {
+    background-color: #ffd700;
+    color: black;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* Section Title */
+h2 {
+    margin-bottom: 15px;
+    color: #2a5298;
+}
+
+/* Skills */
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #2a5298;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    border-radius: 20px;
+}
+
+/* Kontak */
+.kontak {
+    background-color: #2a5298;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3c72;
+    color: white;
+}
